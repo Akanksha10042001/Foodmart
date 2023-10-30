@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+      
+        .nav{
+            background-color:white;
+            height: 40px;
+            width: 100%;
+            margin-left: 20px;
+        }
+       .nav p{
+            color: bisque;
+            font-size: 10px;
+            }
+        span{
+          color: orangered;
+        }
+       
+       .button{
+        position: absolute;
+        top: .70rem;
+        right: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 20px;
+        width: 30px;
+       }
+       .button .bar{
+        height: 3px;
+        width: 100%;
+        background-color:black;
+        border-radius: 10px;
+        margin-top: 3px;
+       }
+       .main{
+        position: relative;
+        border: 1px solid transparent;
+        height:45vh;
+        width:60%;
+        margin-left: 20%;
+        padding: 20px;
+        background-color: lightblue;
+        border-radius: 5px;
+        
+       }
+       .btn-default{
+        height: 38px;
+        width: 80px;
+        background-color: transparent;
+        border-radius: 5px;
+       }
+       .box{
+        position: relative;
+        border: 1px solid transparent;
+        height:33vh;
+        width:60%;
+        margin-left: 20%;
+        padding: 20px;
+        margin-top: 10px;
+        background-color: lightgreen;
+        border-radius: 5px;
+       }
+       .content{
+        position: relative;
+        border: 1px solid transparent;
+        height:33vh;
+        width:60%;
+        margin-left: 20%;
+        padding: 20px;
+        margin-top: 10px;
+        background-color: burlywood;
+        border-radius: 5px;
+       }
+       .aa{
+        float: right;
+        mix-blend-mode: multiply;
+      }
+       .main img{
+        transform: rotate(0deg);
+        float: right;
+        padding-right: 20px;
+     
+        mix-blend-mode: multiply;
+       }
+       u{
+        color: red;
+       }
+        p{
+        color: black;
+       }
+       div{
+            display: block;
+       }
+       .box img{
+        float: right;
+        mix-blend-mode: multiply;
+        }
+        @media only screen and(min-width:790px){
+        .aa{
+           padding-top: 30%;
+          }
+        }
+    </style>
+</head>
+<body>
+    
+   <div class="nav">
+    <h3>FOOD<span>MART</span></h3>
+    <p>GROCERY STORE</p>
+       
+     <a href="" class="button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </a>
+    </div><br>
+   <div class="main">
+    <img src="th.jpg"style="height: 25vw; width: 15vw;">
+     <u><p>100% natural</p></u>
+      <h3>Fresh Smoothie & <br>Summer Juice</h3>
+      
+      <p>Best selling summer juice with natural <br>extracts.</p>
+     <button class="btn btn-default">shop now</button>
+   </div>
+    <div class="box">
+      <img src="OIP.jpg" style="height: 17vw; width: 15vw;">
+        <u><p>20% off</p></u>
+        <h3>Fruits & <br>Vegetables</h3>
+         <p>shop the category</p>
+        
+    </div>
+    <div class="content">
+      <div class="aa">
+        <img src="item.jpeg" style="height: 20vw; width: 18vw;">
+        </div>
+        <u><p>15% off</p></u>
+        <h3>Baked Products</h3>
+       <p>shop the category</p>
+    </div>
+
+</body>
+</html>
